@@ -14,7 +14,7 @@ public class ExcelUploadWithValidationApplication {
 		
 		String str="mumbai";
 		Map<Character, Long> collect = str.chars().mapToObj(c->(char)c).collect(Collectors.groupingBy(c->c,Collectors.counting()));
-	System.out.println(collect);
+	  System.out.println(collect);
 	}
 
 }
